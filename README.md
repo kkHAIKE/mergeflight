@@ -1,9 +1,9 @@
 # mergeflight
 [![GoDoc](https://godoc.org/github.com/kkHAIKE/mergeflight?status.svg)](https://godoc.org/github.com/kkHAIKE/mergeflight)
 
-like [singleflight](https://pkg.go.dev/golang.org/x/sync/singleflight) but use for merge diffrent parameter to batch call with count window and time window
+It is similar to [singleflight](https://pkg.go.dev/golang.org/x/sync/singleflight), but it is used to merge different parameters into batch calls with a count window and time window.
 
-it's useful to make batch RPC request or DB query, or other slow IO function.
+This is useful for making batch RPC requests or DB queries, or for other slow I/O functions.
 
 # usage
 see [godoc](https://godoc.org/github.com/kkHAIKE/mergeflight)
